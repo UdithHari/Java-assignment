@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class student
+public class Assignment_1
 {
     int rollno,age;
     float cgpa;
@@ -9,11 +9,11 @@ public class student
     public static void main(String args[])
     {
         Scanner sc = new Scanner(System.in);
-        student std[] = new student[10];
+        Assignment_1 std[] = new Assignment_1[10];
 
         for(int i=0;i<3;i++)
         {
-            std[i] = new student();
+            std[i] = new Assignment_1();
             System.out.println("Enter Roll No. : ");
             std[i].rollno = sc.nextInt();
             System.out.println("Enter Name : ");
